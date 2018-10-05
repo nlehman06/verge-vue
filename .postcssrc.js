@@ -6,7 +6,7 @@ module.exports = {
     isDev
       ? ""
       : purgecss({
-          content: ["./src/**/*.html", "./src/**/*.vue", "./src/!**/!*.scss"]
+          content: ["./public/**/*.html", "./src/**/*.vue", "./src/!**/!*.scss"]
         }),
     require("autoprefixer")
   ]
