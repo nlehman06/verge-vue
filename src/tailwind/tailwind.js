@@ -116,7 +116,7 @@ let colors = {
   purple: "#9561e2",
   "purple-light": "#a779e9",
   "purple-lighter": "#d6bbfc",
-  "purple-lightest": "#f3ebff",
+  "purple-lightest": "#efedf9",
 
   "pink-darkest": "#451225",
   "pink-darker": "#6f213f",
@@ -189,6 +189,7 @@ module.exports = {
 
   fonts: {
     sans: [
+      "Open Sans",
       "system-ui",
       "BlinkMacSystemFont",
       "-apple-system",
@@ -221,7 +222,8 @@ module.exports = {
       "Liberation Mono",
       "Courier New",
       "monospace"
-    ]
+    ],
+    display: ["Martel Sans", "Roboto", "Fira Sans"]
   },
 
   /*
@@ -252,7 +254,8 @@ module.exports = {
     "2xl": "1.5rem", // 24px
     "3xl": "1.875rem", // 30px
     "4xl": "2.25rem", // 36px
-    "5xl": "3rem" // 48px
+    "5xl": "3rem", // 48px
+    "6xl": "4.5rem" // 48px
   },
 
   /*
@@ -466,6 +469,7 @@ module.exports = {
     "16": "4rem",
     "24": "6rem",
     "32": "8rem",
+    "44": "11rem",
     "48": "12rem",
     "64": "16rem",
     "192": "48rem",
@@ -512,6 +516,7 @@ module.exports = {
     "10": "2.5rem",
     "12": "3rem",
     "16": "4rem",
+    "20": "5rem",
     "24": "6rem",
     "32": "8rem",
     "48": "12rem",
