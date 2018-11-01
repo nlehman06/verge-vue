@@ -154,26 +154,26 @@
     </nav>
 </template>
 <script>
-    export default {
-        name:    "navComponent",
-        data() {
-            return {
-                open: false
-            };
-        },
-        methods: {
-            toggle() {
-                this.open = !this.open;
-            }
-        }
+export default {
+  name: "navComponent",
+  data() {
+    return {
+      open: false
     };
+  },
+  methods: {
+    toggle() {
+      this.open = !this.open;
+    }
+  }
+};
 </script>
 <style>
-    .st6 {
-        color: #526e64;
-    }
+.st6 {
+  color: #526e64;
+}
 
-    .st7 {
-        color: transparent;
-    }
+.st7 {
+  color: transparent;
+}
 </style>

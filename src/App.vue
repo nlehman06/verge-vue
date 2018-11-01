@@ -6,15 +6,14 @@
 </template>
 
 <script>
-    import Top from "./components/Top.vue";
-    import NavComponent from "./components/NavComponent";
+import Top from "./components/Top.vue";
+import NavComponent from "./components/NavComponent";
 
-    export default {
+export default {
   name: "app",
   components: {
-      NavComponent,
+    NavComponent,
     Top
   }
 };
 </script>
-
